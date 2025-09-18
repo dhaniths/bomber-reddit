@@ -1,0 +1,37 @@
+{
+  "name": "bomber-reddit-phaser",
+  "version": "0.1.0",
+  "author": "Your Name <you@example.com>",
+  "description": "Phaser-based single-player Bomberman-like game for Reddit Devvit Web.",
+  "entry": {
+    "client": "/client/index.html",
+    "server": "/server/index.js"
+  },
+  "permissions": [
+    "read",
+    "identity",
+    "submit"
+  ],
+  "routes": [
+    {
+      "path": "/api/score",
+      "method": "POST",
+      "handler": "/server/api/score.js"
+    },
+    {
+      "path": "/api/leaderboard",
+      "method": "GET",
+      "handler": "/server/api/leaderboard.js"
+    }
+  ],
+  "webview": {
+    "origin": "https://your-domain.com",
+    "csp": "default-src 'self'; frame-ancestors 'self' reddit.com"
+  },
+  "assets": {
+    "clientBuildPath": "/client",
+    "static": "/client/assets"
+  },
+  "schedule": [],
+  "manifest_version": 1
+}

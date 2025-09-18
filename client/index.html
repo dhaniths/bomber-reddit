@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Bomber-Reddit Phaser</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <style>body{margin:0;background:#111;color:#fff;font-family:Arial,Helvetica,sans-serif}#top{padding:8px;display:flex;justify-content:space-between;align-items:center}#game-container{display:flex;justify-content:center;padding:8px}</style>
+</head>
+<body>
+  <div id="top">
+    <div id="title">Bomber-Reddit (Phaser)</div>
+    <div id="controls">Arrow/WASD to move • Space to bomb • <button id="submit">Submit Score</button></div>
+  </div>
+  <div id="game-container"><div id="game" style="width:640px;height:480px"></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <script src="game.js"></script>
+  <script>
+    document.getElementById('submit').addEventListener('click', ()=>{
+      const name = prompt('Enter your Reddit username (omit /u/):','your-username');
+      if(!name) return;
+      // attempt POST to /api/score
+      fetch('/api/score',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({user:name,score: window.__GAME_SCORE || 0})})
+      .then(r=>r.json()).then(j=>alert('Submitted: '+JSON.stringify(j))).catch(e=>alert('Submit failed: '+e));
+    });
+  </script>
+</body>
+</html>

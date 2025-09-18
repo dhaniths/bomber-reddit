@@ -1,0 +1,14 @@
+60s Walkthrough Script for Bomber-Reddit (for demo video)
+
+[0-5s] Intro Title Card: "Bomber-Reddit — Devvit Web Hackathon Entry"
+[5-12s] Show Reddit demo post, click the interactive area to launch the game.
+[12-30s] Gameplay: show moving with arrow keys, placing a bomb, destroying boxes, picking power-ups.
+- Voiceover example: "Use arrows to move, space to place bombs. Destroy boxes to reveal power-ups and defeat enemies."
+[30-45s] Show enemy kills and score increasing; highlight quick polish like explosions and power-ups.
+[45-55s] Submit score flow: click Submit Score, enter Reddit username, show leaderboard update.
+[55-60s] Closing screen: "Built with Phaser + Devvit Web — code & demo link in project description. /u/your-reddit-username"
+
+Recording tips:
+- Use desktop browser (judges will review desktop web).
+- Keep resolution 1280x720, record system audio only if needed, but voiceover is optional.
+- Keep the clip under 60s and show the README URL or Devpost link at the end.

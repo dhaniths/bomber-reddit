@@ -1,0 +1,15 @@
+Title: Bomber-Reddit — Phaser Bomberman-like
+
+
+Short description:
+A compact single-player Bomberman-inspired game built for Reddit using Devvit Web. Players place bombs, destroy boxes, reveal power-ups and defeat enemies in short, judge-friendly sessions.
+
+
+What to include on Devpost:
+- Project link to app listing on developers.reddit.com
+- Demo post link (public subreddit)
+- README in repo
+- 60s walkthrough video (optional but recommended)
+- Team / Reddit usernames
+
+Suggested tags: Gaming, Web, Beginner Friendly, Devvit Web

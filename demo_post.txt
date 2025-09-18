@@ -1,0 +1,15 @@
+Title: 🎮 Play Bomber-Reddit (Demo) — Phaser Bomberman-like for the Devvit hackathon
+
+Hey r/YourTestSub!
+
+This is a demo post for our Devvit Web hackathon entry "Bomber-Reddit". Click the interactive area to launch the game inside Reddit (desktop web).
+
+How to play:
+1. Arrow keys or WASD to move.
+2. Space to drop a bomb.
+3. Destroy boxes to reveal power-ups and defeat enemies.
+4. Restart by refreshing the page. Submit your score with the 'Submit Score' button (used for the demo leaderboard).
+
+If you're a judge: README.md in the repo explains endpoints and verification steps.
+
+Thanks — /u/your-reddit-username

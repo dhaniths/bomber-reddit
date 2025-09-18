@@ -1,0 +1,9 @@
+Bomber-Reddit — Phaser Bomberman-like
+
+
+Short: A compact single-player Bomberman-inspired game built for Reddit using Devvit Web. Players place bombs, destroy boxes, reveal power-ups and defeat enemies in short, judge-friendly sessions.
+
+
+Tech: Phaser 3, simple serverless endpoints for score submission. Deployed as static client + serverless functions (Vercel/Netlify recommended).
+
+Tags: Gaming, Web, Beginner Friendly, Devvit Web
