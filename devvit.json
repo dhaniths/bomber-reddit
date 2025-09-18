@@ -25,7 +25,7 @@
     }
   ],
   "webview": {
-    "origin": "https://your-domain.com",
+    "origin": "https://reddit-erawlc2tg-dhaniths-project.vercel.app",
     "csp": "default-src 'self'; frame-ancestors 'self' reddit.com"
   },
   "assets": {
